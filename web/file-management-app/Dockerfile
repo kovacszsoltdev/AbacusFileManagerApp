@@ -1,0 +1,16 @@
+# --- Build stage ---
+FROM node:22-alpine AS build
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+RUN npm run build
+
+# --- Run stage: Nginx ---
+FROM nginx:1.25-alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+
+EXPOSE 5173
+CMD ["nginx", "-g", "daemon off;"]

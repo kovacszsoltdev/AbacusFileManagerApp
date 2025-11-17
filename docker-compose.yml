@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: file-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+
+      # Azure Storage connection string
+      AZURE_STORAGE_CONTAINER_NAME: "files"
+      AZURE_STORAGE_CONNECTION_STRING: ""
+
+      ASPNETCORE_URLS: "http://+:8080"
+
+    ports:
+      - "8080:8080"
+    networks:
+      - file-net
+
+  frontend:
+    build:
+      context: ./web/file-management-app
+      dockerfile: Dockerfile
+    container_name: file-frontend
+    environment:
+      VITE_API_BASE_URL: "http://localhost:8080"
+    ports:
+      - "5173:80"
+    depends_on:
+      - api
+    networks:
+      - file-net
+
+networks:
+  file-net:
+    driver: bridge

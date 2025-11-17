@@ -1,0 +1,29 @@
+{
+    "HOME_PAGE_TITLE": "File Management",
+    "SELECT_FILE_TO_UPLOAD": "Select a file from your computer to upload.",
+    "SELECTED_FORMATS": "Supported formats",
+    "MAX_FILE_SIZE": "Maximum file size",
+    "UPLOAD_FILE": "Upload File",
+    "DELETE": "Delete",
+    "DELETE_FILE": "Delete File",
+    "DELETING_IN_PROGRESS": "Deleting...",
+    "DELETE_FILE_CONFIRMATION_MESSAGE": "Are you sure you want to delete the file \"{{fileName}}\"?",
+    "CANCEL": "Cancel",
+    "ACTIONS": "Actions",
+    "FILE_NAME": "File Name",
+    "FILE_SIZE": "File Size",
+    "UPOADED_DATE": "Uploaded Date",
+    "ERRORS": {        
+        "UNEXPECTED": "An unexpected error occurred. Please try again later.",
+        "VALIDATION_ERROR": "There were validation errors with your request.",
+        "INVALID_FILE_NAME": "The file name is invalid.",
+        "INVALID_FILE_EXTENSION": "The file extension is not allowed.",
+        "INVALID_CONTENT_TYPE": "The content type of the file is not supported.",
+        "FILE_TOO_LARGE": "The file size exceeds the allowed limit.",
+        "FILE_STREAM_NOT_READABLE": "The file could not be read properly.",
+        "FILE_NOT_FOUND": "The requested file was not found.",
+        "FILE_ALREADY_EXISTS": "A file with the same name already exists.",
+        "UNAUTHORIZED_FILE_ACCESS": "You do not have permission to access this file.",
+        "FILE_SERVICE_NOT_AVAILABLE": "The file service is currently unavailable. Please try again later."
+    }
+}
