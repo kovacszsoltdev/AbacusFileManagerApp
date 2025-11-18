@@ -1,0 +1,83 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram name="Page-1" id="ysu9aDew6UOaSMEFj3zJ">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-1" value="Building Blocks" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-2" value="&lt;b&gt;Frontend (React)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-3" value="&lt;b&gt;Backend (.Net 8)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-4" value="&lt;b&gt;Azure Blob Storage&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="760" y="120" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-5" value="Axios" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-6" value="Material UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-7" value="BlobContainer (&quot;files&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="197.5" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-8" value="Clean Architecture" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="240" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-9" value="REST API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="197.5" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-10" value="MediatR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-11" value="BlobServiceClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="320" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.739;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OyjcnNgTk2ryaQoHKyMM-11" target="OyjcnNgTk2ryaQoHKyMM-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="380" as="sourcePoint" />
+            <mxPoint x="670" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-21" value="&lt;i&gt;&amp;lt;https&amp;gt;&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OyjcnNgTk2ryaQoHKyMM-19">
+          <mxGeometry x="-0.0672" y="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=-0.012;exitY=0.765;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OyjcnNgTk2ryaQoHKyMM-4" target="OyjcnNgTk2ryaQoHKyMM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="343" as="sourcePoint" />
+            <mxPoint x="670" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OyjcnNgTk2ryaQoHKyMM-5" target="OyjcnNgTk2ryaQoHKyMM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="390" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-25" value="&lt;i&gt;&amp;lt;https&amp;gt;&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OyjcnNgTk2ryaQoHKyMM-22">
+          <mxGeometry x="-0.0432" relative="1" as="geometry">
+            <mxPoint x="1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.012;exitY=0.489;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="OyjcnNgTk2ryaQoHKyMM-3" target="OyjcnNgTk2ryaQoHKyMM-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="265" as="sourcePoint" />
+            <mxPoint x="407" y="264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-26" value="FluentValidator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="360" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyjcnNgTk2ryaQoHKyMM-27" value="i18n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
