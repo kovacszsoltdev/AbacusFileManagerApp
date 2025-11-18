@@ -25,3 +25,6 @@ This is the recommended way.
 ### Set your Azure Storage connection string and container name in `docker-compose.yml`
 - AZURE_STORAGE_CONTAINER_NAME: ""
 - AZURE_STORAGE_CONNECTION_STRING: ""
+
+![BuildingBlocks](docs/BuildingBlocks.png)
+![UseCases](docs/UseCases.png)
