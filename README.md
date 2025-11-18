@@ -26,5 +26,8 @@ This is the recommended way.
 - AZURE_STORAGE_CONTAINER_NAME: ""
 - AZURE_STORAGE_CONNECTION_STRING: ""
 
+---
+# Diagrams
 ![BuildingBlocks](docs/BuildingBlocks.png)
+
 ![UseCases](docs/UseCases.png)
